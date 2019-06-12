@@ -24,19 +24,14 @@ require 'scraperwiki/simple_html_dom.php';
 //// SET UP
 // Build the list of URLs to analyse
 
-
-
 $Targets = array(
-"https://www.uswitch.com/mobiles/iphone-8-deals/?variant=64gb-gold",
-"https://www.uswitch.com/mobiles/iphone-xr-deals/?variant=64gb-black",
-"https://www.uswitch.com/mobiles/iphone-xs-deals/?variant=64gb-grey",
-"https://www.uswitch.com/mobiles/iphone-xs-deals/?variant=256gb-gold",
-"https://www.uswitch.com/mobiles/iphone-xr-deals/?variant=128gb-black",
-"https://www.uswitch.com/mobiles/iphone-8-deals/?variant=256gb-gold",
-"https://www.uswitch.com/mobiles/iphone-8-deals/?variant=64gb-grey",
-"https://www.uswitch.com/mobiles/iphone-xs-max-deals/?variant=64gb-grey"
+"https://www.uswitch.com/mobiles/samsung-galaxy-s10e-deals/?variant=128gb-prism-black",
+"https://www.uswitch.com/mobiles/samsung-galaxy-s10-deals/?variant=128gb-prism-black",
+"https://www.uswitch.com/mobiles/samsung-galaxy-s10-plus-deals/?variant=128gb-prism-black",
+"https://www.uswitch.com/mobiles/samsung-galaxy-s9-deals/?variant=64gb-black",
+"https://www.uswitch.com/mobiles/samsung-galaxy-s9-plus-deals/?variant=64gb-black",
+"https://www.uswitch.com/mobiles/huawei-p30-deals/?variant=128gb-aurora"	
 );
-
 
 foreach ($Targets as $target)
 {

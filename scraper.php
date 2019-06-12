@@ -42,7 +42,6 @@ if (strpos($target, '?') !== false) {$joiner="&";} ELSE {$joiner="?";}
   
 $newtarget[]=$target.$joiner."upfront_cost=0-150&networks=ee";
 $newtarget[]=$target.$joiner."upfront_cost=0-150&networks=o2";
-$newtarget[]=$target;
 	
 $newtarget[]=$target.$joiner."data=4000&upfront_cost=0-150&sort_by=monthly_cost&resellers=true&networks=ee";
 $newtarget[]=$target.$joiner."data=4000&upfront_cost=0-150&sort_by=total_cost&resellers=true&networks=ee";
